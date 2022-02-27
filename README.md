@@ -17,4 +17,4 @@ Os conceitos focados foram a harmonia das cores e o posicionamento dos elementos
 
 <h2 align="center">Viste o projeto: </h2>
 
-<a href=https://brunocls.github.io/HotelParaiso/curso_flex>Clique aqui! 🖖</a>
+<a href="https://brunocls.github.io/LoginPage/login">Clique aqui! 🖖</a>
