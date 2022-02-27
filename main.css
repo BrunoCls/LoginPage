@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.formulario{
+    background: linear-gradient(0deg, rgba(0,129,247,255), rgba(3,179,248,255));
+    padding: 15% 0 15% 15%;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo{
+    color: #fff;
+    font-weight: 600;
+    font-size: 3.5em;
+    max-width: 35%;
+}
+
+.botao{
+    border-radius: 30px;
+    padding: 1em;
+    margin: 0 0 2% 0;
+    width: 60%;
+    
+}
+
+#lembrar{
+    margin: 0 1.5% 0 0;
+}
+
+#label_lembrar{
+    color: #226082;
+    
+}
+
+#esqueceu{
+    color: #226082;
+    margin: 0 0 0 8%;
+}
+
+#submit{
+    border-radius: 30px;
+    padding: 1em;
+    width: 60%;
+    background: #11cc97;
+    font-weight: 600;
+    color: #fff;
+    margin: 2% 0 0 0;
+}
+
+#div_pai{
+   display: flex;
+   width: 100%;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
+}
+
+#vetor_login img{
+    width: 100%;
+    height: auto;
+
+}
+
+#vetor_login{
+    width: 100%;
+}
+
+
+@media (max-width: 728px){
+
+    #div_pai{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    #vetor_login{
+        display: none;
+    }
+
+    .formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .botao{
+        width: 100%;
+    }
+
+    .formulario h1{
+        margin-bottom: 3rem;
+    }
+}
